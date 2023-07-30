@@ -1,0 +1,12 @@
+{
+	"extends": "./tsconfig.json",
+	// TypeScriptファイルに加え設定ファイル.eslintrc.js自体も対象に含める
+	"compilerOptions": {
+		"allowJs": true
+	},
+	"include": [
+		"src",
+		".*.js",
+		"*.js"
+	]
+}

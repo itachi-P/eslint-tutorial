@@ -36,3 +36,12 @@
   - `npx eslint --fix src/pages/**/*.js`
     - src/pages配下の全てのディレクトリを対象にする
 - 自動修正できないルールは警告でチェックして手動で修正する必要がある
+
+### TypeScript ESLintの導入
+
+- TypeScriptの場合は、TypeScript ESLintを導入する
+- ESLintの200以上のルールに加え、TypeScript固有のルールも100以上追加される
+- 追加ルールの一覧[TypeScript ESLint公式ドキュメント](https://typescript-eslint.io/rules/)
+  - TypeScript ESLintを動かすためには、2つの設定ファイルが必要
+    - tsconfig.eslint.json
+    - .eslintrc.js
